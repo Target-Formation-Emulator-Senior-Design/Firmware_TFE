@@ -3,11 +3,11 @@ from luma.core.render import canvas
 from luma.lcd.device import st7567
 import RPi.GPIO as GPIO
 from pathlib import Path
-import urllib3
+#import urllib3
 from PIL import Image
 import os
 import time
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import PIL.ImageOps
 import keyboard
 #Led
