@@ -11,7 +11,7 @@ Setup to use SSH:
    2. note: the IP is up to 4 decimal values
         ex:)  192.168.1.1
 3)  Go to  your laptop/PC and open terminal
-4)  type SHH pi@IP
+4)  type SSH pi@IP
     where pi is the username
     IP is the IP if your pi
 5) you know have full acsess on the PI terminal
