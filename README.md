@@ -12,10 +12,10 @@ Setup to use SSH:
         ex:)  192.168.1.1
 3)  Go to  your laptop/PC and open terminal
 4)  type SSH pi@IP
-    where pi is the username
-    IP is the IP if your pi
+    1. where pi is the username
+    2. IP is the IP if your pi
 5) you know have full acsess on the PI terminal
 6) to execute a script on the PI by using your pc
-    in the terminal type "Python2 tst.py"
-    where tst.py is the file name
+    1. in the terminal type "Python2 tst.py"
+    2. where tst.py is the file name
    
