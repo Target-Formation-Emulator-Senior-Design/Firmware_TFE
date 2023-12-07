@@ -33,7 +33,7 @@ def LED():
             if i < 100:
                 LED_1.ChangeDutyCycle(i)			#change duty cycle for varying the brightness of LED."""
             else:
-                i = 100
+                i > 100
                 LED_1.ChangeDutyCycle(i)
                 print('ERROR Duty Cycle Cant be more than 100', i)
         
@@ -42,7 +42,7 @@ def LED():
             if i > 0:
                 LED_1.ChangeDutyCycle(i)			#change duty cycle for varying the brightness of LED."""
             else:
-                i = 0
+                i < 0
                 LED_1.ChangeDutyCycle(i)
                 print("ERROR Duty Cycle Cant be less than 0", i)
         elif t == 's':
