@@ -9,7 +9,7 @@ import os
 import time
 #import matplotlib.pyplot as plt
 import PIL.ImageOps
-import keyboard
+#import keyboard
 #Led
 GPIO.setwarnings(False)
 GPIO.setmode (GPIO.BCM)         	#we are programming the GPIO by BCM pin numbers. (PIN35 as ‘GPIO19’)
