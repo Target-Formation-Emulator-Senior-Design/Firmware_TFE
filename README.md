@@ -18,4 +18,8 @@ Setup to use SSH:
 6) to execute a script on the PI by using your pc
     1. in the terminal type "Python2 tst.py"
     2. where tst.py is the file name
-   
+
+LCD Script:
+1) program will ask for inputs to controll LED1/LED2.
+2) After setting both brightness images will start to display in an infinit loop.
+3) press "CTL+C" to go back to stop displaying images and go back to adjust LEDs.
