@@ -22,7 +22,7 @@ Setup to use SSH:
 LCD Script:
 1) program will ask for inputs to controll LED1/LED2.
 2) After setting both brightness images will start to display in an infinit loop.
-3) press "CTL+C" to go back to stop displaying images and go back to adjust LEDs.
+3) press "CTRL+C" to go back to stop displaying images and go back to adjust LEDs.
 
 Data Logging:
 1) Download Apache2 before logging
