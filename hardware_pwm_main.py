@@ -45,8 +45,9 @@ lcdFreq = 5 #this is in hertz desired
 
 def main():
     
-    
-   
+    image_directory = "/home/pi/sign_off_imgs"
+    image_files = [f for f in os.listdir(image_directory) if f.endswith(('.jpg','.jpeg', '.png', '.gif'))]
+    image_files.sort()
                    
     while 1:
         
@@ -85,9 +86,9 @@ def main():
         
        
         try:#Loop through each image and display it
-            image_directory = "/home/pi/sign_off_imgs"
-            image_files = [f for f in os.listdir(image_directory) if f.endswith(('.jpg','.jpeg', '.png', '.gif'))]
-            image_files.sort()
+            #image_directory = "/home/pi/sign_off_imgs"
+            #image_files = [f for f in os.listdir(image_directory) if f.endswith(('.jpg','.jpeg', '.png', '.gif'))]
+            #image_files.sort()
             for image_file in image_files:
                 image_path = os.path.join(image_directory, image_file)
                 temp_img2 = Image.open(image_path)
