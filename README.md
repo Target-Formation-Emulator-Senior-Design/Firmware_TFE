@@ -28,5 +28,5 @@ Data Logging:
 1) Download Apache2 before logging
    1. Follow instructions located in Software_TFE README
 2) type "sudo nano /var/www/html/Data2.csv" into the terminal to create file
-   1. type filler words then press ctrl x, then y and hit enter to save
-   2. go back into Data2.csv and delete the filler words then hit ctrl x, then y to save
+   1. type filler words then press ctrl+x, then y and hit enter to save
+   2. go back into Data2.csv and delete the filler words then hit ctrl+x, then y to save
