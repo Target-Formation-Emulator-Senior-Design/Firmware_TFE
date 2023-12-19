@@ -9,7 +9,7 @@ Setup to use SSH:
    1. Go into the terminal and type
        " hostname -I "
    2. note: the IP is up to 4 decimal values
-        ex:)  192.168.1.1
+        ex.)  192.168.1.1
 3)  Go to  your laptop/PC and open terminal
 4)  type SSH pi@IP
     1. where pi is the username
@@ -23,3 +23,10 @@ LCD Script:
 1) program will ask for inputs to controll LED1/LED2.
 2) After setting both brightness images will start to display in an infinit loop.
 3) press "CTL+C" to go back to stop displaying images and go back to adjust LEDs.
+
+Data Logging:
+1) Download Apache2 before logging
+   1. Follow instructions located in Software_TFE README
+2) type "sudo nano /var/www/html/Data2.csv" into the terminal to create file
+   1. type filler words then press ctrl x, then y and hit enter to save
+   2. go back into Data2.csv and delete the filler words then hit ctrl x, then y to save
